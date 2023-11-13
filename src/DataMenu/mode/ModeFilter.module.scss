@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.mode {
+    width: 50px;
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 20px;
+    font-size: 20px;
+    position: absolute;
+    transition: all 10s ease-in ;
+}
+
+.none-circle {
+    left: 0;
+}
+
+.active-circle {
+    right: 0;
+}
+
+.active-mode {
+    background-color: green;
+}
